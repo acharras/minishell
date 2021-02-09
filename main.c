@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: acharras <acharras@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/02/09 16:14:12 by acharras          #+#    #+#             */
-/*   Updated: 2021/02/09 16:14:12 by acharras         ###   ########lyon.fr   */
+/*   Created: 2021/02/09 16:59:31 by acharras          #+#    #+#             */
+/*   Updated: 2021/02/09 17:06:20 by acharras         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/minishell.h"
+#include "./includes/minishell.h"
 
 static int	ft_find_equal(char *envp)
 {

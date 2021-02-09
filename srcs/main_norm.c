@@ -6,15 +6,15 @@
 /*   By: acharras <acharras@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/09 16:43:50 by acharras          #+#    #+#             */
-/*   Updated: 2021/02/09 16:45:58 by acharras         ###   ########lyon.fr   */
+/*   Updated: 2021/02/09 16:59:07 by acharras         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/minishell.h"
 
-void        main_norm(t_minishell *ms, int i)
+void	main_norm(t_minishell *ms, int i)
 {
-    ft_testing(ms);
+	ft_testing(ms);
 	while (ms->command_tab[i])
 	{
 		main_manager(ms, i);
